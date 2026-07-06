@@ -1,6 +1,9 @@
 {
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index?_path=$1" }
+  ],
   "functions": {
-    "api/[...path].js": {
+    "api/index.js": {
       "memory": 128,
       "maxDuration": 10
     }
