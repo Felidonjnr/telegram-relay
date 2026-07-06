@@ -1,0 +1,6 @@
+{
+  "name": "telegram-relay",
+  "version": "1.0.0",
+  "description": "Relay bot API calls from restricted environments to Telegram",
+  "private": true
+}
